@@ -4,8 +4,8 @@ LABEL maintainer="Ryan Wang<i@ryanc.cc>"
 WORKDIR /opt/halo
 ADD . /tmp
 ENV TZ=Asia/Shanghai \
-DB_USER="admin" \
-DB_PASSWORD="123456"
+DB_USER="kyang" \
+DB_PASSWORD="asdqwe135"
 
 RUN ln -snf /usr/share/zoneinfo/${TZ} /etc/localtime && echo ${TZ} > /etc/timezone
 
